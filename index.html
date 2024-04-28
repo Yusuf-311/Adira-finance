@@ -40,6 +40,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" media="screen" href="css/style.css" />
 
+    <link rel="stylesheet" href="css/slider_news.css" />
+
     <!-- Bootstrap icon CDN link  -->
     <link
       rel="stylesheet"
@@ -106,44 +108,73 @@
         </div>
       </header>
 
-      <section class="container text-center py-3">
+      <section class="container-fluid text-center">
         <h1 class="display-2 lh-base">ADIRA DIGITAL</h1>
         <p class="lh-base">#CicilanRingan Untuk bpkb mobil dan motor</p>
-        <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide my-5"
-          data-bs-ride="carousel"
-        >
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="images/banner (1).jpg"
-                class="d-block mx-auto w-100 rounded-3"
-                alt=""
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/banner (2).jpg"
-                class="d-block mx-auto w-100 rounded-3"
+                src="images/banner (5).jpg"
+                class="d-block w-100"
                 alt="..."
               />
             </div>
             <div class="carousel-item">
               <img
-                src="images/banner (3).jpg"
-                class="d-block mx-auto w-100 rounded-3"
+                src="images/banner (6).jpg"
+                class="d-block w-100"
                 alt="..."
               />
             </div>
             <div class="carousel-item">
               <img
-                src="images/banner (4).jpg"
-                class="d-block mx-auto w-100 rounded-3"
+                src="images/banner (7).jpg"
+                class="d-block w-100"
                 alt="..."
               />
             </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
 
